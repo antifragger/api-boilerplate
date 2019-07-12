@@ -65,3 +65,5 @@ This boilerplate is set up to be used with a mongoDB environment, for testing pu
 
 Run `./clearDemoFiles.sh`. This will remove all demo files and the shell script itself, so you have a fresh start!<br />
 Route import is still available in `index.js` after running this script.
+
+I get a `-bash: ./clearDemoFiles.sh: Permission denied` error when running the script. Give the file proper permissions with `chmod 755 ./clearDemoFiles.sh` and re-run your script!
