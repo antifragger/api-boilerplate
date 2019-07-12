@@ -43,4 +43,24 @@
   JWT encode and decode for Node.js
 
 - UUID (https://www.npmjs.com/package/uuid)<br />
-  Simple, fast generation of RFC4122 UUIDS
+  Simple, fast generation of RFC4122 UUIDS. Can be used to create unique random ID's. MongoDB will create their own id's automatically
+
+
+## Usage
+
+### Environment variables
+
+For local purposes, you can add a .env file by duplicating the `.env.template` file and renaming it to `.env`.
+
+### What database should I use?
+
+This boilerplate is set up to be used with a mongoDB environment, for testing purposes you can create a sandbox environment through https://www.mongodb.com/cloud/atlas. You will get a generated `DB` and `SECRET` parameter that you apply in the .env file.
+
+### Scripts
+
+- `npm run start`<br />
+  Nodemon will start the server and watch for changes
+
+### I want to delete all the demo files
+
+Run `./clearDemoFiles.sh`. This will remove all demo files and the shell script itself, so you have a fresh start!
