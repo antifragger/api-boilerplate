@@ -63,4 +63,5 @@ This boilerplate is set up to be used with a mongoDB environment, for testing pu
 
 ### I want to delete all the demo files
 
-Run `./clearDemoFiles.sh`. This will remove all demo files and the shell script itself, so you have a fresh start!
+Run `./clearDemoFiles.sh`. This will remove all demo files and the shell script itself, so you have a fresh start!<br />
+Route import is still available in `index.js` after running this script.
